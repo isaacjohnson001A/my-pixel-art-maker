@@ -1,0 +1,97 @@
+body{
+    color:blue;
+    background-color:b;
+    padding-left: 30%;
+    padding-top: 3%;
+}
+h1{
+    text-align: center;
+    font-size: 220%;
+    margin-left: -25%;
+}
+#art{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 6%;
+    width: 85%;
+    color:blue;
+    text-emphasis: center;
+
+}
+input{
+    border:1px solid blue;
+}
+#rows{
+    margin-left:5.5%;
+}
+#cols{
+    margin-left:3.5%;
+    margin-top:2%;
+}
+#color{
+    margin-left:5%;
+    margin-top: 1%;
+    width: 16%;
+    height:3em;
+    border:1px solid blue;
+}
+button{
+    margin-top:3%;
+    height:3em;
+    background-color:blue;
+    outline: none;
+    border: none;
+    border-radius:3em;
+}
+/* #bnt1{
+    margin-left: 25%; 
+} */
+#my-table{
+    margin-left: 0%;
+}
+ tr, td{
+    border: 1px  solid black;
+    padding: 0.5em;
+    }
+  
+@media screen and (min-width:400px){
+    body{
+        font-size: 90%;
+        color:blue;
+        padding-left: 0%;
+        padding-top: 3%;
+    }
+    h1{
+        font-size: 110%;
+    }
+    #art{
+        
+        margin-left: 4%;
+        height: 5%;
+        text-align: center;
+    
+    }
+    input{
+        font-size: 80%;
+    }
+    /* #rows{
+        
+    } */
+    #color{
+        margin-top:1%;
+        width:10%;
+    }
+    #bnt1{
+        margin-left:50%; 
+    }
+    #smart{
+        margin-top: 9%;
+        margin-left: -2%;
+        font-size: 80%;
+    }
+    #my-table{
+        margin-left: 1%;
+    }
+
+
+}
